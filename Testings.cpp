@@ -7,6 +7,10 @@ int main()
 {
     cout << "Starting Program" << endl;
     
+    string address = "www.turingscraft.com";
+    address = "http://" + address;
+
+    cout << boolalpha << address;
 
     cout << endl << "Ended Program" << endl;
     return 0;
